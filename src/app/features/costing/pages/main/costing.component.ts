@@ -137,7 +137,7 @@ export class CostingComponent implements OnInit {
   }
 
   get cdp(): number {
-    return this.met + this.costosEmpaque + this.cv + this.igvv;
+    return this.met + this.costosEmpaque + this.cv;
   }
 
   get ganancia(): number {
